@@ -1,0 +1,54 @@
+body {
+    background-color: #fce4ec; /* ပန်းရောင်နုနု background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Pyidaungsu', sans-serif;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 90px;
+}
+
+h1 {
+    color: #e91e63;
+}
+
+.gif-container img {
+    width: 150px;
+    margin: 20px 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    position: relative; /* "No" button ပြေးဖို့အတွက် လိုအပ်တယ် */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#yes-btn {
+    background-color: #e91e63;
+    color: white;
+}
+
+#no-btn {
+    background-color: #9e9e9e;
+    color: white;
+    position: absolute; /* နေရာရွှေ့လို့ရအောင် */
+    left: 180px;
+}
